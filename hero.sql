@@ -156,3 +156,5 @@ VALUES
     (9, 9, 109),  -- Leomord has Blade Armor
     (10, 10, 110);  -- Chou has Feather of Heaven
 
+ALTER TABLE item
+ADD item_price DECIMAL(10, 2);
